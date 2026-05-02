@@ -14,6 +14,7 @@ struct CurrencyCleanApp: App {
             ContentView()
             
             
+            
 
         }
     }
