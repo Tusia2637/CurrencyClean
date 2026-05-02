@@ -12,6 +12,9 @@ struct CurrencyCleanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
+            
+
         }
     }
 }

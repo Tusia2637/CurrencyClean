@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView { 
             Form {
-                Section(header: Text("Сумма в USD")) {
+                Section(header: Text("Суммаf в USD")) {
                     TextField("Введите сумму", text: $viewModel.amount)
                         .keyboardType(.decimalPad)
                 }
