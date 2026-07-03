@@ -17,7 +17,7 @@ class ConverterViewModel: ObservableObject {
             self.rates = data.rates
         } catch {
             print("Ошибка загрузки: \(error)")
-            // Заглушка на случай, если даже GitHub не ответит
+           
             self.rates = ["USD": 1.0, "EUR": 0.92, "RUB": 91.5, "GBP": 0.79]
         }
         isLoading = false
